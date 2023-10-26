@@ -1,0 +1,61 @@
+.sidebar {
+    width: 25%; /* Ширина навигационной панели */
+    background-color: #333; /* Цвет фона навигационной панели */
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .sidebar {
+    width: 25%;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .sidebar ul li a:hover {
+    color: #007bff; /* Цвет при наведении */
+  }
+  
+
+/* App.css */
+/* Добавляем отступ между иконкой и текстом */
+.sidebar ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: left;
+  }
+  
+  /* Отступ между иконкой и текстом */
+  .sidebar ul li svg {
+    margin-right: 10px;
+  }
+
+  li a {
+    text-decoration: none;
+    white-space: nowrap; 
+    margin-left: 10px; 
+  }
+  li:nth-child(3) a {
+    margin-left: 6px; /* Немного уменьшаем отступ слева */
+  }
+  li:nth-child(1) a {
+    margin-left: 12px; /* Немного уменьшаем отступ слева */
+  }

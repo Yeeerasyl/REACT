@@ -1,0 +1,52 @@
+/* App.css или ваш CSS-файл */
+.friends-container {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+  }
+  
+  input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .friend-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Отображение в 3 столбца по горизонтали */
+    grid-gap: 10px;
+  }
+  
+  .friend {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; /* Элементы размещаются вертикально */
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .friend img {
+    width: 100px; /* Размер квадратной фотографии */
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .friend p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  

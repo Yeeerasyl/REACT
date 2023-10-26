@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  background-color: #f0f0f0; /* Цвет фона всего сайта (серый) */
+  margin: 0; /* Убираем внешние отступы, чтобы фон занимал всю страницу */
+  padding: 0; /* Убираем внутренние отступы, чтобы фон занимал всю страницу */
+  font-family: 'Nunito Sans', sans-serif;
+}
+.main-content{
+  text-align: center;
+}
+
+
+/* App.css */
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+
+
+.main-content {
+  width: 50%; /* Ширина основного контента */
+  background-color: #fff; /* Цвет фона основного контента */
+  padding: 20px;
+  margin: 10px;
+  height: 550px;
+}
+
+.news-sidebar {
+  width: 25%; /* Ширина блока с новостями */
+  background-color:#fff; /* Цвет фона блока с новостями */
+  padding: 20px;
+  margin: 10px;
+  height: 550px;
+}
+
+/* App.css */
+.app-container {
+  display: flex;
+  justify-content: space-between;
+}
+/* App.css или ваш CSS-файл */
+.rounded {
+border-radius: 10px; 
+overflow: hidden; 
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+
+
+

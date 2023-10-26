@@ -1,0 +1,42 @@
+/* App.css или ваш CSS-файл */
+.messages-container {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+  }
+  
+  input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .chat-list {
+    display: flex;
+    flex-direction: column; /* Отображение чатов вертикально */
+    gap: 10px;
+  }
+  
+  .chat {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .chat p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
