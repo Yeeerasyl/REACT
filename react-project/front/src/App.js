@@ -8,6 +8,7 @@ import Messages from "./componens/Messages/Messages";
 import Photos from "./componens/Photos/Photos";
 import Video from "./componens/Video/Video";
 import Newspaper from "./componens/Newspaper/Newspaper";
+import LoginPage from "./pages/LoginPage/LoginPage"
 
 class App extends React.Component {
   constructor(props) {
@@ -46,6 +47,7 @@ class App extends React.Component {
               <Route path='/video' component={Video} />
               <Route path='/newspaper' component={Newspaper}/>
               <Route path='/' component={Newspaper} />
+              <Route path='login' component={LoginPage}></Route>
             </Switch>
           </div>
 
