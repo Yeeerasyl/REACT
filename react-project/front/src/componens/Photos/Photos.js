@@ -43,7 +43,7 @@ const Photos = () => {
       <div className="photo-list">
         {photos.map((photo, index) => (
           //<img src={process.env.PUBLIC_URL + imagePath} alt="My Photo" />
-          <img key={index} src={`http://localhost:3000${photo.url}`} alt={`Фото ${index + 1}`} />
+          <img key={index} src={`http://localhost:5000/uploads/photo-1701008155235.JPG`} alt={`Фото ${index + 1}`} />
           //<img key={index} src={`/uploads${photo.url}`} alt={`Фото ${index + 1}`} />
 
         ))}
