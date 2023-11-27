@@ -51,9 +51,11 @@ class App extends React.Component {
             </Switch>
           </div>
 
-          <div className="news-sidebar rounded">
-            <h1>{data ? data : "Loading"}</h1>
-          </div>
+          {data && (
+            <div className="news-sidebar rounded">
+              <h1>{data}</h1>
+            </div>
+          )}
         </div>
       </BrowserRouter>
     );

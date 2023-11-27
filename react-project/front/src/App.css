@@ -49,6 +49,19 @@ overflow: hidden;
 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
+/* App.css или ваш CSS-файл */
+
+.main-content {
+  text-align: center;
+  width: 60%;
+  max-width: 1200px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0 auto; /* Центрирование по горизонтали */
+}
+
 
 
 
